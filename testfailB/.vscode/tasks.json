@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "B",
+            "command": "false",
+            "type": "shell",
+            "args": [],
+        },
+        {
+            "label": "A",
+            "command": "true",
+            "type": "shell",
+            "args": [],
+            "dependsOn": [
+                "B"
+            ]
+        },
+    ]
+}
